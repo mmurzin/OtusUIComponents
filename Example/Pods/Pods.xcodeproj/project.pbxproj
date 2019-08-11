@@ -9,10 +9,14 @@
 /* Begin PBXBuildFile section */
 		09A9DB71C6B4415DBADD7F7F3E0B9E19 /* OtusUIComponents-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DAD0FCA48894331AC1C6A9A1447CCD /* OtusUIComponents-dummy.m */; };
 		1D4D96CB83911FA446010B8B0AC73055 /* Pods-OtusUIComponents_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B446C462E3D9F2BE292FF13D850A80F1 /* Pods-OtusUIComponents_Tests-dummy.m */; };
-		3DE87CF2B84F70E4B7FED107C06FD626 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731491E7898DBF85F6FB90EE2F9754FB /* ReplaceMe.swift */; };
 		53BD689338E7F3E3ED40ACB523B6CB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		7906AE06A65163B0F5885583A66F65A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		83899C13041B5C675F37A35366E365B5 /* Pods-OtusUIComponents_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCF1955784622EECDACA691A68DE03ED /* Pods-OtusUIComponents_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE7B31CF2300A82000B3A8F5 /* Extension-UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B31C92300A82000B3A8F5 /* Extension-UIView.swift */; };
+		CE7B31D02300A82000B3A8F5 /* Extension-CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B31CA2300A82000B3A8F5 /* Extension-CGPoint.swift */; };
+		CE7B31D12300A82000B3A8F5 /* PieChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B31CB2300A82000B3A8F5 /* PieChart.swift */; };
+		CE7B31D22300A82000B3A8F5 /* Extension-CGRect.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B31CC2300A82000B3A8F5 /* Extension-CGRect.swift */; };
+		CE7B31D32300A82000B3A8F5 /* ProfileButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE7B31CD2300A82000B3A8F5 /* ProfileButton.swift */; };
 		E9FD563C01C260E494B03D2B852D4768 /* OtusUIComponents-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ED3908B2079257EB34AE0E3B3906CE7 /* OtusUIComponents-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -27,7 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0530EFC44DD55EF83C56B03C6DDCD6C3 /* OtusUIComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = OtusUIComponents.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0530EFC44DD55EF83C56B03C6DDCD6C3 /* OtusUIComponents.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = OtusUIComponents.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		0C4FF12A200EDC9F9AD9DD571071CEA6 /* OtusUIComponents.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OtusUIComponents.xcconfig; sourceTree = "<group>"; };
 		190E059B5D15EF51D3543C508C704DD8 /* OtusUIComponents.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = OtusUIComponents.modulemap; sourceTree = "<group>"; };
 		23E838E970CACBF510D6E2551805B1B5 /* Pods-OtusUIComponents_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-OtusUIComponents_Tests.modulemap"; sourceTree = "<group>"; };
@@ -37,16 +41,20 @@
 		46EED16100B5564F111F71162DEDF576 /* Pods-OtusUIComponents_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OtusUIComponents_Tests-Info.plist"; sourceTree = "<group>"; };
 		4FBB4B1CCD6D4F2ADBA9EF50433FB7A1 /* OtusUIComponents-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "OtusUIComponents-Info.plist"; sourceTree = "<group>"; };
 		59001228A60EE0D2378E691F46D9EC20 /* Pods-OtusUIComponents_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-OtusUIComponents_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6427D5381EA0F005B28C6C24FDE90D75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6427D5381EA0F005B28C6C24FDE90D75 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6ED3908B2079257EB34AE0E3B3906CE7 /* OtusUIComponents-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OtusUIComponents-umbrella.h"; sourceTree = "<group>"; };
-		731491E7898DBF85F6FB90EE2F9754FB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = OtusUIComponents/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		7A6C1A0DB15708719C72E6B45C58E641 /* Pods_OtusUIComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_OtusUIComponents_Tests.framework; path = "Pods-OtusUIComponents_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A19F124DC19360B38E4E3EF4A867564F /* OtusUIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = OtusUIComponents.framework; path = OtusUIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A94B625BA1184230D5EF231DB7416C64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7A6C1A0DB15708719C72E6B45C58E641 /* Pods_OtusUIComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OtusUIComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A19F124DC19360B38E4E3EF4A867564F /* OtusUIComponents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OtusUIComponents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94B625BA1184230D5EF231DB7416C64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B446C462E3D9F2BE292FF13D850A80F1 /* Pods-OtusUIComponents_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-OtusUIComponents_Tests-dummy.m"; sourceTree = "<group>"; };
 		BA114DA2F8548C6EB73533C584F529EF /* Pods-OtusUIComponents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-OtusUIComponents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CE7B31C92300A82000B3A8F5 /* Extension-UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension-UIView.swift"; path = "OtusUIComponents/Classes/Extension-UIView.swift"; sourceTree = "<group>"; };
+		CE7B31CA2300A82000B3A8F5 /* Extension-CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension-CGPoint.swift"; path = "OtusUIComponents/Classes/Extension-CGPoint.swift"; sourceTree = "<group>"; };
+		CE7B31CB2300A82000B3A8F5 /* PieChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PieChart.swift; path = OtusUIComponents/Classes/PieChart.swift; sourceTree = "<group>"; };
+		CE7B31CC2300A82000B3A8F5 /* Extension-CGRect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension-CGRect.swift"; path = "OtusUIComponents/Classes/Extension-CGRect.swift"; sourceTree = "<group>"; };
+		CE7B31CD2300A82000B3A8F5 /* ProfileButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfileButton.swift; path = OtusUIComponents/Classes/ProfileButton.swift; sourceTree = "<group>"; };
 		D9DAD0FCA48894331AC1C6A9A1447CCD /* OtusUIComponents-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OtusUIComponents-dummy.m"; sourceTree = "<group>"; };
 		DCF1955784622EECDACA691A68DE03ED /* Pods-OtusUIComponents_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-OtusUIComponents_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F4BA2367CE6EC5A2B535159440C3C2AE /* Pods-OtusUIComponents_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-OtusUIComponents_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -131,7 +139,11 @@
 		BDCDBD112E31955B5524AC324E9BCF99 /* OtusUIComponents */ = {
 			isa = PBXGroup;
 			children = (
-				731491E7898DBF85F6FB90EE2F9754FB /* ReplaceMe.swift */,
+				CE7B31CA2300A82000B3A8F5 /* Extension-CGPoint.swift */,
+				CE7B31CC2300A82000B3A8F5 /* Extension-CGRect.swift */,
+				CE7B31C92300A82000B3A8F5 /* Extension-UIView.swift */,
+				CE7B31CB2300A82000B3A8F5 /* PieChart.swift */,
+				CE7B31CD2300A82000B3A8F5 /* ProfileButton.swift */,
 				BFF37833E1F898355683D87413C1391C /* Pod */,
 				AF798C1F6EDF9011199EABF036274888 /* Support Files */,
 			);
@@ -249,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -292,8 +305,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE7B31CF2300A82000B3A8F5 /* Extension-UIView.swift in Sources */,
 				09A9DB71C6B4415DBADD7F7F3E0B9E19 /* OtusUIComponents-dummy.m in Sources */,
-				3DE87CF2B84F70E4B7FED107C06FD626 /* ReplaceMe.swift in Sources */,
+				CE7B31D32300A82000B3A8F5 /* ProfileButton.swift in Sources */,
+				CE7B31D22300A82000B3A8F5 /* Extension-CGRect.swift in Sources */,
+				CE7B31D12300A82000B3A8F5 /* PieChart.swift in Sources */,
+				CE7B31D02300A82000B3A8F5 /* Extension-CGPoint.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,8 +573,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
