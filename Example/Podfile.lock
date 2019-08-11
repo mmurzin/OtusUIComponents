@@ -1,0 +1,16 @@
+PODS:
+  - OtusUIComponents (0.1.0)
+
+DEPENDENCIES:
+  - OtusUIComponents (from `../`)
+
+EXTERNAL SOURCES:
+  OtusUIComponents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  OtusUIComponents: 29e73ed2be7fb288636e9433fcd898079882de59
+
+PODFILE CHECKSUM: ca54a6d883a142bbdabd028e0586ebbd009302cd
+
+COCOAPODS: 1.6.1

@@ -1,0 +1,6 @@
+use_frameworks!
+target 'OtusUIComponents_Tests' do
+  pod 'OtusUIComponents', :path => '../'
+  
+  
+end

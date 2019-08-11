@@ -1,0 +1,22 @@
+{
+  "name": "OtusUIComponents",
+  "version": "0.1.0",
+  "summary": "A short description of OtusUIComponents.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mmurzin/OtusUIComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mmurzin": "goodlost@yandex.ru"
+  },
+  "source": {
+    "git": "https://github.com/mmurzin/OtusUIComponents.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "OtusUIComponents/Classes/**/*"
+}
